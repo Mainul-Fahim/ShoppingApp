@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  padding: 0;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #ffffff;
+  /* width: 360px; */
+}
+
+a {
+  color: #ff5550;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 1rem;
+}
+
+.textColor {
+  color: #555555;
+}
+
+.themeColor {
+  color: #fe5530;
+}
+
+.navbar {
+  background-color: white;
+  margin: 0% !important;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--light-color);
+  color: #333;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+}
+
+.badge {
+  font-size: 0.8rem;
+  text-align: center;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.large {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.medium {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.text-primary {
+  color: #fe5530;
+}
+
+.btn-primary,
+.bg-primary,
+.badge-primary,
+.alert-primary {
+  background: #fe5530;
+  color: #fff;
+}
+/* Forms */
+.form .form-group {
+  margin: 1.2rem 1rem 1.2rem 0rem;
+}
+
+.form .form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="date"],
+.form select,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+.form input[type="submit"],
+button {
+  font: inherit;
+}
+
+.form .social-input {
+  display: flex;
+}
+
+.form .social-input i {
+  padding: 0.5rem;
+  width: 4rem;
+}
+
+.form .social-input i.fa-twitter {
+  color: #38a1f3;
+}
+.form .social-input i.fa-facebook {
+  color: #3b5998;
+}
+.form .social-input i.fa-instagram {
+  color: #3f729b;
+}
+.form .social-input i.fa-youtube {
+  color: #c4302b;
+}
+.form .social-input i.fa-linkedin {
+  color: #0077b5;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.alert-wrapper {
+  position: fixed;
+  top: 4rem;
+  right: 0rem;
+  display: inline-block;
+}
+
+.alert-danger {
+  height: 2rem;
+  border: 1px solid;
+  background: red;
+  color: #fff;
+  padding: 0 0.2rem 0 0.2rem;
+  font-size: 1.5rem;
+}
+
+.alert-success {
+  height: 2rem;
+  border: 1px solid;
+  background: #28a745;
+  color: #fff;
+  padding: 0 0.2rem 0 0.2rem;
+  font-size: 1.5rem;
+}
+
+.askToLogin {
+  margin: 1rem ;
+  text-align: center;
+}
+.divCenter{
+  margin-top: 10px;
+  width: 360px;
+  margin-left: 35%;
+}
+/*Theme color : #FE5530 
+--firm-color: #2471a3
+*/
