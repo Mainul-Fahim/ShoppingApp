@@ -10,5 +10,5 @@
 
 - Next Js
 - Redux (state management)
-- Express
-- Mongodb
+- Material UI
+
